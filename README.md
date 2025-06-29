@@ -59,7 +59,7 @@ If `idletime.txt` is missing or invalid, it defaults to **10 minutes**.
 You can run the Python source directly:
 
 ```bash
-python src/idlelaunch.py
+python /src/idlelaunch.py
 ```
 
 To compile into an .exe (requires PyInstaller):
@@ -70,7 +70,7 @@ pyinstaller --noconsole --onefile --icon=icon.ico idlelaunch.py
 
 ⚠️ Note: The included .exe is not code-signed, so antivirus software may flag it as a false positive. You can build it yourself using PyInstaller if you wish.
 
-You can also run it via pythonw without a console
+You can also run it via pythonw without a console (no need to compile it then)
 
 ---
 
