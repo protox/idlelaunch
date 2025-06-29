@@ -56,10 +56,10 @@ If `idletime.txt` is missing or invalid, it defaults to **10 minutes**.
 
 ## 🐍 Source & Build
 
-You can run the Python source directly:
+You can run the Python source directly (from /src directory):
 
 ```bash
-python /src/idlelaunch.py
+python idlelaunch.py
 ```
 
 To compile into an .exe (requires PyInstaller):
