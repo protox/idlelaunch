@@ -27,10 +27,10 @@ All `.lnk` shortcut files must be placed in the same directory as the `.exe` or 
 ## 📁 File Structure
 
 Place these files in the same folder:
-idlelaunch.exe ← compiled version (or run idlelaunch.py)
-idletime.txt ← idle timeout in minutes (e.g., 10)
-openrgb-on.lnk ← shortcut to OpenRGB with --profile default
-openrgb-off.lnk ← shortcut to OpenRGB with --profile suspend
+- idlelaunch.exe ← compiled version (or run idlelaunch.py)
+- idletime.txt ← idle timeout in minutes (e.g., 10)
+- openrgb-on.lnk ← shortcut to OpenRGB with --profile default
+- openrgb-off.lnk ← shortcut to OpenRGB with --profile suspend
 
 If `idletime.txt` is missing or invalid, it defaults to **10 minutes**.
 
