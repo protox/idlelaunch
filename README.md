@@ -1,5 +1,5 @@
-# 🕒 IdleLaunch — Auto Trigger OpenRGB Profiles on Idle
-
+# ⌛ IdleLaunch — Auto Trigger OpenRGB Profiles on Idle
+![idlelaunch](https://raw.githubusercontent.com/protox/idlelaunch/refs/heads/main/src/idlelaunch.png)
 **IdleLaunch** is a lightweight background tool that automatically switches OpenRGB profiles when your system becomes idle. It's ideal for users who want their LEDs to turn off after a period of inactivity and turn back on when activity resumes. This is mostly for Windows, but you can modify the python file for other systems.
 
 ---
@@ -32,7 +32,7 @@ Place these files in the same folder:
 - openrgb-on.lnk ← shortcut to OpenRGB with --profile default
 - openrgb-off.lnk ← shortcut to OpenRGB with --profile suspend
 
-If `idletime.txt` is missing or invalid, it defaults to **10 minutes**.
+If `idletime.txt` is missing, it defaults to **10 minutes**.
 
 ---
 
