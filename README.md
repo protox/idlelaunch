@@ -65,7 +65,7 @@ To compile into an .exe (requires PyInstaller):
 
 pyinstaller --noconsole --onefile --icon=icon.ico idlelaunch.py
 
-⚠️ Note: The .exe is not code-signed, so antivirus software may flag it as a false positive. You can build it yourself using PyInstaller to avoid this.
+⚠️ Note: The included .exe is not code-signed, so antivirus software may flag it as a false positive. You can build it yourself using PyInstaller if you wish.
 
 You can also run it via pythonw without a console
 ```
