@@ -4,7 +4,7 @@
 
 ---
 
-## ✨ Why?
+## Why?
 
 I switched to [OpenRGB](https://openrgb.org/) to control the LEDs on my system, but there wasn’t a simple way to **turn everything off when the computer goes idle**.
 
@@ -12,7 +12,7 @@ I tried [this project](https://github.com/brunoherrera/OpenRGB-Monitor-Status), 
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 - Monitors keyboard and mouse activity.
 - After a set number of idle minutes (configured via `idletime.txt`), it:
@@ -24,7 +24,7 @@ All `.lnk` shortcut files must be placed in the same directory as the `.exe` or 
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 Place these files in the same folder:
 - idlelaunch.exe ← compiled version (or run idlelaunch.py)
@@ -36,7 +36,7 @@ If `idletime.txt` is missing, it defaults to **10 minutes**.
 
 ---
 
-## 🚀 Usage
+## Usage
 
 1. Create two OpenRGB profiles:  
    - `default` (normal lighting)  
@@ -54,7 +54,7 @@ If `idletime.txt` is missing, it defaults to **10 minutes**.
 
 ---
 
-## 🐍 Source & Build
+## Source & Build
 
 You can run the Python source directly (from /src directory):
 
@@ -68,13 +68,13 @@ To compile into an .exe (requires PyInstaller):
 pyinstaller --noconsole --onefile --icon=icon.ico idlelaunch.py
 ```
 
-⚠️ Note: The included .exe is not code-signed, so antivirus software may flag it as a false positive. You can build it yourself using PyInstaller if you wish.
+Note: The included .exe is not code-signed, so antivirus software may flag it as a false positive. You can build it yourself using PyInstaller if you wish.
 
 You can also run it via pythonw without a console (no need to compile it then)
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the GNU General Public License v3.0.
 
